@@ -1,0 +1,32 @@
+import hello01 from "./src/hello-01";
+import hello02 from "./src/hello-02";
+import hello03 from "./src/hello-03";
+import hello04 from "./src/hello-04";
+import hello05 from "./src/hello-05";
+import hello06 from "./src/hello-06";
+import hello07 from "./src/hello-07";
+import hello08 from "./src/hello-08";
+import hello09 from "./src/hello-09";
+import hello10 from "./src/hello-10";
+
+import world01 from "./src/world-01";
+import world02 from "./src/world-02";
+import world03 from "./src/world-03";
+import world04 from "./src/world-04";
+import world05 from "./src/world-05";
+import world06 from "./src/world-06";
+import world07 from "./src/world-07";
+import world08 from "./src/world-08";
+import world09 from "./src/world-09";
+import world10 from "./src/world-10";
+
+document.querySelector("#root").innerHTML = hello01 + " " + world01 + "<br />";
+document.querySelector("#root").innerHTML += hello02 + " " + world02 + "<br />";
+document.querySelector("#root").innerHTML += hello03 + " " + world03 + "<br />";
+document.querySelector("#root").innerHTML += hello04 + " " + world04 + "<br />";
+document.querySelector("#root").innerHTML += hello05 + " " + world05 + "<br />";
+document.querySelector("#root").innerHTML += hello06 + " " + world06 + "<br />";
+document.querySelector("#root").innerHTML += hello07 + " " + world07 + "<br />";
+document.querySelector("#root").innerHTML += hello08 + " " + world08 + "<br />";
+document.querySelector("#root").innerHTML += hello09 + " " + world09 + "<br />";
+document.querySelector("#root").innerHTML += hello10 + " " + world10 + "<br />";

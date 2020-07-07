@@ -1,16 +1,8 @@
 <html>
-  <head>
-    <!-- <script src="./hello.js"></script>
-    <script src="./world.js"></script> -->
-  </head>
+  <head> </head>
   <body>
     <h1>Hello, Webpack</h1>
     <div id="root"></div>
-    <script type="module">
-      import hello from "./hello.js";
-      import world from "./world.js";
-      console.log(window);
-      document.querySelector("#root").innerHTML = hello + " " + world;
-    </script>
+    <script src="./dist/index.bundle.js"></script>
   </body>
 </html>
