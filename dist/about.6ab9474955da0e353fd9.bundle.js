@@ -81,10 +81,22 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./about.js");
 /******/ })
 /************************************************************************/
 /******/ ({
+
+/***/ "./about.js":
+/*!******************!*\
+  !*** ./about.js ***!
+  \******************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/hello */ \"./src/hello.js\");\n/* harmony import */ var _src_world__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/world */ \"./src/world.js\");\n/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/style.css */ \"./assets/style.css\");\n/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_style_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\ndocument.querySelector(\"#root\").innerHTML = _src_hello__WEBPACK_IMPORTED_MODULE_0__[\"default\"] + \" \" + _src_world__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n\n\n//# sourceURL=webpack:///./about.js?");
+
+/***/ }),
 
 /***/ "./assets/style.css":
 /*!**************************!*\
@@ -94,18 +106,6 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./assets/style.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./assets/style.css?");
-
-/***/ }),
-
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/hello */ \"./src/hello.js\");\n/* harmony import */ var _src_world__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/world */ \"./src/world.js\");\n/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/style.css */ \"./assets/style.css\");\n/* harmony import */ var _assets_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_style_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\ndocument.querySelector(\"#root\").innerHTML = _src_hello__WEBPACK_IMPORTED_MODULE_0__[\"default\"] + \" \" + _src_world__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
